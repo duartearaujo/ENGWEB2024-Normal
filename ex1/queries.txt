@@ -1,0 +1,5 @@
+1- db.contratos.count()
+2- db.contratos.count( { tipoprocedimento : "Ajuste Direto Regime Geral" } )
+3- db.contratos.find( {} )
+4- db.contratos.aggregate( { procedimento: , contratos: { $sum: {  } }  } )
+5- db.contratos.aggregate( $sum: { $toInt: { precoContratual } } )
